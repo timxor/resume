@@ -1,5 +1,16 @@
 # ignore mac files
-
 .DS_Store
+
+
+# latex files
+./**/*.aux
+./**/*.log
+
+
+# IDE/editor files
+.idea/
+_config.yml
+
+
 
 
