@@ -1,15 +1,17 @@
-## resume Pages
-My resume aka Tim Siwula's resume.
+## timothy's resume
+
+**Project:**<br>
+My resume.
 
 **Website:**<br>
-https://github.com/tcsiwula/resume
+https://github.com/fluffypomeranian/resume
 
 **Author:**<br>
-Tim Siwula (zen@timsiwula.com)
+Timothy Siwula (siwulasoftware@zoho.com)
 
-## View my resume online
+## View my resume 
 
-- Click [here](https://latexonline.cc/compile?git=https://github.com/tcsiwula/resume&target=resume.tex&command=xelatex) to view my resume online.
+- Click [here](https://latexonline.cc/compile?git=https://github.com/github.com/fluffypomeranian/resume&target=resume.tex&command=xelatex) to view my resume.
 
 ## Download my resume
 
