@@ -5,6 +5,10 @@
 # ignore latex files
 ./**/*.aux
 ./**/*.log
+*.aux
+*.log
+*.out
+
 
 
 # ignore editor files
