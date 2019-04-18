@@ -8,8 +8,7 @@
 *.aux
 *.log
 *.out
-
-
+out/
 
 # ignore editor files
 .idea/
