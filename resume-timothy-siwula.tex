@@ -5,9 +5,17 @@
 %
 % Compile: cd /Users/development/Desktop/projects/professional/resume
 %
-% pdflatex resume-timothy-siwula.tex && open resume-timothy-siwula.pdf
+% pdflatex resume-timothy-siwula.tex && cp resume-timothy-siwula.pdf ~/Desktop open resume-timothy-siwula.pdf
 %
+%       cd /Users/personal/dev/resume
 %
+%       pdflatex resume-timothy-siwula.tex
+%
+%       cp resume-timothy-siwula.pdf ~/Desktop/
+%
+%       open ~/Desktop/resume-timothy-siwula.pdf
+%
+%       alias compile_resume="resume && compile_r && move_r && open_r"
 %
 %License : MIT
 %------------------------
@@ -86,8 +94,8 @@
 %  HEADING (TOP LEFT)
 %-------------------------------------------
   \textbf{\href{https://timsiwula.com/}{\Large Timothy Siwula}} \\
-  \href{}{Mobile: +1-312-725-2533} & {https://timsiwula.com} \\
-  \href{mailto:siwulasoftware@gmail.com}{Email : siwulasoftware@gmail.com} \\
+  \href{}{Phone: 312-725-2533} & {https://timsiwula.com} \\
+  \href{mailto:perfectcodeismenycresume@gmail.com}{Email : perfectcodeismenycresume@gmail.com} \\
 \end{tabular*}
 
 
@@ -104,15 +112,34 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-
-    %-----------Ensighten-----------------
+    %----------- begin ensighten -----------------
     \resumeSubheading
-      {Ensighten}{Chicago, IL}
+      {Ensighten}{New York, NY}
       {Software Engineer}{Jun 2019 - Present}
+
+
       \resumeItemListStart
-        \resumeItem{DevOps}
-          {Migrating one test framework to another. Docker, Bamboo, Nodejs, Angular, Spring/Java.}
+
+        % template
+        %\resumeItem{Deployed}
+        % {Ethereum blockchain network on AWS, PostgreSQL database, API, solidity smart contracts, web3.}
+        %\resumeItem{Configured}
+        %  {continuous integration with our GitHub repo to increase deployment speedup.}
+        %\resumeItem{Published}
+        %  {NPM module that called HappyChain that exposes our API to other developers.}
+
+        \resumeItem{Dockerized}
+          {Worked between teams to port legacy test framework to from protractor to cypress within docker.}
+
+        \resumeItem{ETL}
+          {Updated data pipeline to support new column for enhanced reporting capability. }
+
       \resumeItemListEnd
+
+%    %----------- END ensighten -----------------
+
+
+
 
 
 %    %-----------Siwula Software LLC-----------------
@@ -126,7 +153,7 @@
 
     %-----------ConsenSys-----------------
     \resumeSubheading
-      {ConsenSys}{Remote \& San Francisco, CA}
+      {ConsenSys}{San Francisco, CA}
       {Software Engineer}{Jul 2017 - Dec 2018}
       \resumeItemListStart
         \resumeItem{Open-source}
@@ -164,9 +191,9 @@
     %-----------USF-----------------
     \resumeSubheading
       {University of San Francisco}{San Francisco, CA}
-      {Research Assistant and Web Assistant}{Spring 2014 and Spring 2017}
+      {Research Assistant}{Spring 2014 and Spring 2017}
       \resumeItemListStart
-        \resumeItem{Research Assistant - Compilers}
+        \resumeItem{Compilers}
           {Contributed to an open source MIT project called App Inventor. Worked on a javascript to java translator and code generator.}
       \resumeItemListEnd
 
@@ -188,7 +215,7 @@
   \resumeSubHeadingListStart
     \item{
       %--------LANGUAGES------------
-      \textbf{Languages}{: Java, C, R, Solidity, Bash, HTML, CSS, Mandarin (elementary), Python (beginner), Go (beginner), Rust (beginner), Haskell (beginner), Swift (beginner), Scala (beginner)}
+      \textbf{Languages}{: Python, Go, Java, C, R, Bash, HTML, CSS}
     }
     \item{
       %--------TECHNOLOGIES------------
@@ -196,7 +223,7 @@
     }
     \item{
       %--------FRAMEWORKS------------
-      \textbf{Frameworks}{: Node.js, Rect.js, React Native, TensorFlow (learning) }
+      \textbf{Frameworks}{: Node.js, React.js, React Native, TensorFlow}
     }
   \resumeSubHeadingListEnd
 
