@@ -1,0 +1,88 @@
+%---------------------------------------------------------------------------
+%    author: 				Tim Siwula
+%    date:					mon feb 3rd 2020
+% 	 file: 					cache-design-document.txt
+%---------------------------------------------------------------------------
+% 	 path: 					cd /Users/tim.siwula/Desktop/simon
+%---------------------------------------------------------------------------
+%		 clean:         rm cache-design-document.pdf
+%---------------------------------------------------------------------------
+%		 compile:       pdflatex cache-design-document.tex
+%---------------------------------------------------------------------------
+% 	 open:					open cache-design-document.pdf
+%--------------------------------------------------------------------------
+
+
+% design as a PDF
+
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------- cache-design-document.txt -----------------
+
+%-------------------------------------------
+%					HEADER
+%-------------------------------------------
+\section{
+ Cache Design
+}
+%-------------------------------------------
+
+%-------------------------------------------
+% 				BODY
+%-------------------------------------------
+
+  {
+			REQUIREMENTS
+
+			PROBLEM STATEMENT:
+			- create an N-way, set-associative cache
+
+
+			DESIGN REQUIREMENTS:
+			- cache in memory only
+			- client interface
+				- type safe for keys and values
+				- instance 1 all keys same type and all values same type
+				- library
+				- modular plugin for replacement algorithm
+				- defaults LRU, MRU
+			- a.
+			- b.
+	}
+
+%-------------------------------------------
+
+
+%-------------------------------------------
+% 			FOOTER
+%-------------------------------------------
+\end{document}
+%-------------------------------------------
