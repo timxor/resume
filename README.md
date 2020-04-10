@@ -18,6 +18,23 @@ You can preview my resume below:
 
 
 
+## development
+
+```
+cd /Users/tim/developer/resume
+mkdir build
+cd build
+
+pdflatex ./../resume-timothy-siwula.tex .
+pdflatex resume-timothy-siwula.tex
+
+
+
+ls -la /usr/local/texlive/2019basic/bin/x86_64-darwin/tlmgr
+../../texmf-dist/scripts/texlive/tlmgr.pl
+tlmgr search --file --global "/footnote.sty"
+
+```
 
 
 
