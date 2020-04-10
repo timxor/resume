@@ -13,13 +13,3 @@ out/
 # ignore editor files
 .idea/
 _config.yml
-
-
-# ignore archive files
-Archive/2019/position/
-Archive/2020/position/
-Archive/2021/position/
-Archive/2022/position/
-Archive/2023/position/
-Archive/2024/position/
-Archive/2025/position/
