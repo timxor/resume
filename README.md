@@ -2,11 +2,11 @@
 
 ## Download my resume
 
-You can [download my resume-timothy-siwula.pdf](https://raw.githubusercontent.com/fluffypomeranian/resume/master/resume-timothy-siwula.pdf).
+You can [download my resume-timothy-siwula.pdf](tim/https://raw.githubusercontent.com/timxor/resume/master/resume-timothy-siwula.pdf).
 
 ## View my resume
 
-You can [view my resume](https://github.com/fluffypomeranian/resume/blob/master/resume-timothy-siwula.pdf).
+You can [view my resume](tim/https://github.com/timxor/resume/blob/master/resume-timothy-siwula.pdf).
 
 
 ### Preview my resume
@@ -14,7 +14,7 @@ You can [view my resume](https://github.com/fluffypomeranian/resume/blob/master/
 You can preview my resume below:
 
 
-![Timothy Siwula's resume](resume-preview.png?raw=true "Timothy Siwula's resume")
+![Timothy Siwula's resume](tim/resume-preview.png?raw=true "Timothy Siwula's resume")
 
 
 
