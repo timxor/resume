@@ -95,32 +95,27 @@
 %-------------------------------------------
 %  HEADING (TOP LEFT)
 %-------------------------------------------
-  \textbf{\href{}{\Large Timothy Siwula}} \\
-  \href{} {224-440-4611} \\
-  \href{}{https://github.com/timxor/} & {tcsiwula@gmail.com} \\
-  \href{}{https://linkedin.com/in/timsiwula/} & {Chicago, IL} \\
+  \textbf{Tim Siwula} \\
+  \href{} {(917) 885-3119} & {https://github.com/timxor/} \\
+  \href{} {timsiwula@gmail.com} & {https://linkedin.com/in/timsiwula/} \\
 \end{tabular*}
+
+%----------- EDUCATION -----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of San Francisco}{San Francisco, CA}
+      {Bachelor of Science in Computer Science}{Jan 2014 - Graduation May 2017}
+  \resumeSubHeadingListEnd
+
 
 %--------TECHNICAL SKILLS------------
 \section{Technical Skills}
   \resumeSubHeadingListStart
     \item{
       %--------LANGUAGES------------
-      \textbf{Languages}{: Python, Go, C, R, Bash, SQL, Java }
-    }
-    \item{
-      %--------TECHNOLOGIES------------
+      \textbf{Languages}{: Kotlin, Java, Python, Swift, Rust, Haskell, Go, C, R }
       \textbf{Technologies}{: Unix/Linux, AWS/Azure/GCP, Docker, Hadoop, PostgreSQL, Git, Terraform, Kubernetes }
-    }
-
-    %-------------------------
-    % Machine Learning(basic regressing \& classification)
-    %-------------------------
-
-
-    \item{
-      %--------FRAMEWORKS------------
-      \textbf{Frameworks}{: Node.js, React.js, TensorFlow}
     }
   \resumeSubHeadingListEnd
 
@@ -128,6 +123,19 @@
 %----------- EXPERIENCE -----------------
 \section{Experience}
   \resumeSubHeadingListStart
+
+
+    %----------- Acceptance AI -----------------
+    \resumeSubheading
+    {Acceptance AI}{Chicago, IL (Remote)}
+    {Software Engineer}{Dec 2019 - Present}
+    \resumeItemListStart
+    \resumeItem{Kotlin Chess Bot}
+    {Designing an AI Chess Bot that users can play with}
+    \resumeItem{Python VPN}
+    {Building a VPN application for iPhone written in Python and Django}
+    \resumeItemListEnd
+
 
     %----------- Ensighten -----------------
     \resumeSubheading
@@ -145,17 +153,12 @@
       {ConsenSys}{San Francisco, CA (Remote)}
       {Software Engineer}{Jul 2017 - Dec 2018}
       \resumeItemListStart
-        \resumeItem{Open-source}
-          {Experience in open source development as an individual contributor on Blockchain R\&D, Solidity, Web3, Smart Contracts, functional programming.}
-          \resumeItem{Infra}
-            {Experience provisioning Azure linux servers for teammates, along with ssh remote access.}
-        \resumeItem{Continuous Integration}
-          {Configured our teams GitHub repo with Travis CI to ensure the exclusion of failing code while automating passing builds.}
-      %  \resumeItem{Tested}
-       %   {Worked with the Ethereum Foundation to benchmark new opcodes \& pre-compiles for the Metropolis hard fork.}
-
-        \resumeItem{Shipped}
-          {Worked on the Protocol \& Systems Engineering team helping implement Pantheon, an Ethereum enterprise Java client.}
+        \resumeItem{Java Enterprise Ethereum Client}
+          {Worked with an Agile team that developed a Enterprise Ethereum Client to compete with HyperLedger, donated to Apache Foundation}
+          \resumeItem{Rust API for Generating Ethereum Wallets}
+            {Exposed an API written in Rust that would then spawn a child process with the Parity CLI tool and capture and store result in PostgreSQL databasse}
+        \resumeItem{Haskell Side-chain}
+          {Augmented existing Haskell side-chain client to request/transfer transaction data from another node used P2P networking}
       \resumeItemListEnd
 
     %-----------HappyChain-----------------
@@ -193,24 +196,17 @@
 
   \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{HappyENS}
-      {Open source domain name server (DNS) library for resolving *.eth domains that are associated to an address on the decentralized web.}
-  \resumeSubItem{Ad Click Prediction}
-      {Used random forests, bagging and SVM to create a model that predicts the likelihood of a user clicking through. Created custom features by integrating several disjoint tables in increments of 500K using R and Postgres.}
-  \resumeSubItem{The Comedy Bot}
-      {Published: Messenger chatbot that was live in production on Facebook \& Deployed: Heroku node server that calls AWS lambda for requests \& Twilio sms chatbot.}
-  \resumeSubHeadingListEnd
+%%-----------PROJECTS-----------------
+%\section{Projects}
+%  \resumeSubHeadingListStart
+%    \resumeSubItem{HappyENS}
+%      {Open source domain name server (DNS) library for resolving *.eth domains that are associated to an address on the decentralized web.}
+%  \resumeSubItem{Ad Click Prediction}
+%      {Used random forests, bagging and SVM to create a model that predicts the likelihood of a user clicking through. Created custom features by integrating several disjoint tables in increments of 500K using R and Postgres.}
+%  \resumeSubItem{The Comedy Bot}
+%      {Published: Messenger chatbot that was live in production on Facebook \& Deployed: Heroku node server that calls AWS lambda for requests \& Twilio sms chatbot.}
+%  \resumeSubHeadingListEnd
 
-  %----------- EDUCATION -----------------
-  \section{Education}
-    \resumeSubHeadingListStart
-      \resumeSubheading
-        {University of San Francisco}{San Francisco, CA}
-        {Bachelor of Science in Computer Science}{Jan. 2014 -- May. 2017}
-    \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
