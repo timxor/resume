@@ -15,21 +15,22 @@
       "address": "Greater Chicagoland"
     }
   },
-  "education": [
-    {
-      "institution": "University of San Francisco",
-      "location": "San Francisco, CA",
-      "area": "Computer Science",
-      "studyType": "Bachelor of Science",
-      "endDate": "May 2017",
-      "gpa": "",
-      "startDate": "Jan 2014"
-    }
-  ],
   "work": [
     {
+      "company": "Sophos",
+      "location": "Chicago, IL (Remote)",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "Jan 2022",
+      "highlights": [
+        "x",
+        "y"
+      ],
+      "endDate": "Present"
+    },
+    {
       "company": "Acceptance AI",
-      "location": "(Remote) Chicago, IL",
+      "location": "Chicago, IL (Remote)",
       "position": "Software Engineer",
       "website": "",
       "startDate": "Jan 2020",
@@ -46,7 +47,7 @@
       ],
       "company": "Ensighten",
       "position": "Software Engineer",
-      "location": "(Remote) Chicago, IL",
+      "location": "Chicago, IL (Remote)",
       "startDate": "Jun 2019",
       "endDate": "Dec 2019"
     },
@@ -57,7 +58,7 @@
       ],
       "company": "ConsenSys",
       "position": "Software Engineer",
-      "location": "(Remote) San Francisco, CA",
+      "location": "San Francisco, CA (Remote)",
       "startDate": "Jul 2017",
       "endDate": "Dec 2018"
     },
@@ -81,6 +82,16 @@
       "endDate": "Oct 2014",
       "startDate": "May 2014",
       "location": "Berkeley, CA"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of San Francisco",
+      "location": "San Francisco, CA",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "endDate": "May 2017",
+      "startDate": "Jan 2014"
     }
   ],
   "skills": [
