@@ -1,0 +1,171 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Expierence",
+    "education": "Education",
+    "skills": "Technical Skills",
+    "projects": "Projects"
+  },
+  "basics": {
+    "email": "siwulactim@gmail.com",
+    "phone": "(224) 368-0749",
+    "website": "github.com/timxor",
+    "name": "Timothy Siwula",
+    "location": {
+      "address": "Chicago, IL"
+    }
+  },
+  "education": [
+    {
+      "institution": "University of San Francisco",
+      "location": "San Francisco, CA",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "endDate": "May 2017",
+      "startDate": "Jan 2014"
+    }
+  ],
+  "work": [
+    {
+      "company": "Sophos",
+      "location": "Chicago, IL (Remote)",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "Jan 2022",
+      "highlights": [
+        "Accomplished X          ",
+        "Incresed customer satisfaction",
+        "Did this",
+        "________________________",
+        "as by measured Y        ",
+        "by 22% in three months",
+        "________________________",
+        "by doing Z               ",
+        "by designing a new digital onboarding process",
+        "________________________"
+      ],
+      "endDate": "May 2022"
+    },
+    {
+      "company": "Acceptance AI",
+      "location": "Chicago, IL (Remote)",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "Jan 2020",
+      "highlights": [
+        "Integrated backend Node.js API with Zoom's OAuth API, JWTs & LIT Protocol JS SDK",
+        "Enabled support for Zoom webinar API via OAuth credentials"
+      ],
+      "endDate": "Jan 2022"
+    },
+    {
+      "highlights": [
+        "Added a new data feed to existing ETL pipeline using Redshift and Hadoop",
+        "Ported legacy angular test framework to cypress.js"
+      ],
+      "company": "Ensighten",
+      "position": "Software Engineer",
+      "location": "Chicago, IL (Remote)",
+      "startDate": "Jun 2019",
+      "endDate": "Dec 2019"
+    },
+    {
+      "highlights": [
+        "Contributed to the implementation of the enterprise Java Ethereum client",
+        "Contributed to Ethereum peer-to-peer gossip protocol open source implementation"
+      ],
+      "company": "ConsenSys",
+      "position": "Software Engineer",
+      "location": "San Francisco, CA (Remote)",
+      "startDate": "Jul 2017",
+      "endDate": "Dec 2018"
+    },
+    {
+      "highlights": [
+        "Deployed Ethereum blockchain full node client on AWS that communicated with our Node.js API Server",
+        "Published NPM module that called HappyChain that exposes our API to other developers."
+      ],
+      "company": "HappyChain",
+      "position": "Co-founder",
+      "location": "San Francisco, CA",
+      "startDate": "Jan 2017",
+      "endDate": "Aug 2017"
+    },
+    {
+      "highlights": [
+        "System Migration: Ported the Energy Sciences network testbed to a new architecture. This consisted of a linux OS and a network file system."
+      ],
+      "company": "Lawrence Berkeley National Laboratory",
+      "position": "Science Web Programmer",
+      "endDate": "Oct 2014",
+      "startDate": "May 2014",
+      "location": "Berkeley, CA"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "C",
+        "R",
+        "Bash",
+        "Rust",
+        "Go",
+        "SQL"
+      ],
+      "name": "Languages"
+    },
+    {
+      "keywords": [
+        "Linux",
+        "AWS",
+        "Docker",
+        "Hadoop",
+        "Terraform",
+        "Node.js",
+        "TensofFlow",
+        "Terminal"
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Custom DNS Resolver",
+      "description": "Open source domain name server (DNS) library",
+      "url": "https://github.com/timxor/happy-ens",
+      "keywords": [
+        "Node.js",
+        "IPFS"
+      ]
+    },
+    {
+      "keywords": [
+        "R",
+        "PostgreSQL"
+      ],
+      "name": "Kaggle Prediction",
+      "description": "Used random forests, bagging and SVM to create a model that predicts the likelihood of a user clicking through",
+      "url": "https://github.com/timxor/click_prediction"
+    }
+  ],
+  "awards": [
+    {}
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
