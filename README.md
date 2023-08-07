@@ -21,13 +21,8 @@ You can preview my resume below:
 ## development
 
 ```
-
 rm -rf build && mkdir build && cd build
 pdflatex ./../resume-timothy-siwula.tex .
 open resume-timothy-siwula.tex
-
-
-
-
 ```
 
