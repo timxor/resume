@@ -1,12 +1,21 @@
 # august_2023
 
-## development
+
+august_2023
+
 
 ```
-cd august_2023
 
-rm -rf build && mkdir build && cd build
-pdflatex ./../resume-timothy-siwula.tex .
-open resume-timothy-siwula.tex
+mkdir august_2023/v1
+
+cd august_2023/v1
+
+pdflatex ./../cv_tim_siwula_august_2023.tex .
+
+open cv_tim_siwula_august_2023.pdf
+
+
 ```
+
+
 

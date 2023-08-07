@@ -1,0 +1,339 @@
+% ----------------------------------------------------------------------------------------
+% 
+% 
+% Author:       Timothy C. Siwula
+%
+% 
+% File:         /resume/august_2023/v1/cv_tim_siwula_august_2023.tex
+%
+% 
+% Build commands:
+% 
+% 
+%               mkdir august_2023/v1
+% 
+%               cd august_2023/v1
+% 
+%               pdflatex ./../cv_tim_siwula_august_2023.tex .
+% 
+%               open cv_tim_siwula_august_2023.pdf
+% 
+% 
+% ----------------------------------------------------------------------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+
+
+
+
+\usepackage[hidelinks]{hyperref}
+
+
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{blue}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%  RESUME BEGINS NOW!  %
+%-------------------------------------------
+
+\begin{document}
+
+
+
+
+
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+
+%-------------------------------------------
+%  HEADER
+%-------------------------------------------
+
+
+  %----------- NAME -----------------
+  \textbf{{\Large Tim Siwula}} \\
+  \href{}{} & {} \\
+  
+  %----------- NUMBER -----------------
+  \href{}{224-368-0749} & {} \\
+  
+  %----------- EMAIL -----------------                        %----------- GITHUB -----------------
+  \href{mailto:siwulactim@gmail.com}{siwulactim@gmail.com} & \href{https://github.com/timxor/}{github.com/timxor} \\
+  
+  
+  %----------- CITY -----------------                        %----------- LINKEDIN -----------------
+  \href{}{Chicago, IL} & \href{https://linkedin.com/in/siwulactim/}{linkedin.com/in/siwulactim} \\
+  
+\end{tabular*}
+
+
+
+
+%----
+    %----------- EXPERIENCE -----------------
+    \section{Experience}
+      \resumeSubHeadingListStart
+%----
+    %----------- acceptance ai -----------------
+    \resumeSubheading
+      {Acceptance AI}{Chicago, IL (Remote)}
+      {Software Engineer}{SEPTEMBER 2019 - PRESENT}
+      \resumeItemListStart
+        \resumeItem{VPN Infrastructure}
+          {Implementing VPN account management servers written in Python and Django}
+        \resumeItemListEnd
+
+%----
+    %----------- Ensighten -----------------
+    \resumeSubheading
+      {Ensighten}{Chicago, IL (Remote)}
+      {Software Engineer}{Jun 2019 - Oct 2019}
+      \resumeItemListStart
+        \resumeItem{Dockerized test framework on Bamboo}
+          {Worked between teams to port legacy test framework from protractor to cypress within docker.}
+        \resumeItem{Data pipeline}
+          {Updated Redshift and Hadoop tables in ETL pipeline to support new column for enhanced reporting capability.}
+      \resumeItemListEnd
+
+
+%----
+    %-----------ConsenSys-----------------
+    \resumeSubheading
+      {ConsenSys}{San Francisco, CA (Remote)}
+      {Software Engineer}{Jul 2017 - Dec 2018}
+      \resumeItemListStart
+        \resumeItem{Open-source}
+          {Experience in open source development as an individual contributor on Blockchain R\&D, Solidity, Web3, Smart Contracts, functional programming.}
+          \resumeItem{Infra}
+            {Experience provisioning Azure linux servers for teammates, along with ssh remote access.}
+        \resumeItem{Continuous Integration}
+          {Configured our teams GitHub repo with Travis CI to ensure the exclusion of failing code while automating passing builds.}
+      %  \resumeItem{Tested}
+       %   {Worked with the Ethereum Foundation to benchmark new opcodes \& pre-compiles for the Metropolis hard fork.}
+
+        \resumeItem{Shipped}
+          {Worked on the Protocol \& Systems Engineering team helping implement Pantheon, an Ethereum enterprise Java client.}
+      \resumeItemListEnd
+
+
+%----
+    %-----------HappyChain-----------------
+    \resumeSubheading
+      {HappyChain}{San Francisco, CA}
+      {Co-founder}{Dec 2016 - Jun 2017}
+      \resumeItemListStart
+        \resumeItem{Deployed}
+          {Ethereum blockchain network on AWS, PostgreSQL database, API, solidity smart contracts, web3.}
+        \resumeItem{Configured}
+          {continuous integration with our GitHub repo to increase deployment speedup.}
+        \resumeItem{Published}
+          {NPM module that called HappyChain that exposes our API to other developers.}
+       \resumeItemListEnd
+
+
+%----
+    %-----------Berkeley Lab-----------------
+    \resumeSubheading
+      {Lawrence Berkeley National Laboratory}{Berkeley, CA}
+      {Science Web Programmer}{May 2014 - Oct 2014}
+      \resumeItemListStart
+        \resumeItem{System Migration}
+          {Ported the Energy Sciences network testbed to a new architecture. This consisted of a linux OS and a network file system.}
+        \resumeItem{Reservation System}
+          {Developed a front-end web application using javascript on google cloud.}
+       \resumeItemListEnd
+
+%----
+    %-----------USF-----------------
+    \resumeSubheading
+      {University of San Francisco}{San Francisco, CA}
+      {Research Assistant}{Spring 2014 and Spring 2017}
+      \resumeItemListStart
+        \resumeItem{Compilers}
+          {Contributed to an open source MIT project called App Inventor. Worked on a javascript to java translator and code generator.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%----
+    %-----------PROJECTS-----------------
+    \section{Projects}
+      \resumeSubHeadingListStart
+        \resumeSubItem{HappyENS}
+          {Open source domain name server (DNS) library for resolving *.eth domains that are associated to an address on the decentralized web.}
+      \resumeSubItem{Ad Click Prediction}
+          {Used random forests, bagging and SVM to create a model that predicts the likelihood of a user clicking through. Created custom features by integrating several disjoint tables in increments of 500K using R and Postgres.}
+      \resumeSubItem{The Comedy Bot}
+          {Published: Messenger chatbot that was live in production on Facebook \& Deployed: Heroku node server that calls AWS lambda for requests \& Twilio sms chatbot.}
+      \resumeSubHeadingListEnd
+
+
+  
+  
+
+%----
+    %--------TECHNICAL SKILLS------------
+    \section{Technical Skills}
+      \resumeSubHeadingListStart
+        \item{
+          %--------LANGUAGES------------
+          \textbf{Languages}{: Python, Go, C, R, Bash, SQL, Java }
+        }
+        \item{
+          %--------TECHNOLOGIES------------
+          \textbf{Technologies}{: Linux, AWS/GCP, Docker, Hadoop, PostgreSQL, Git, Terraform, Node.js, TensorFlow }
+        }
+
+      \resumeSubHeadingListEnd
+    
+    
+    
+    
+    
+%----
+    %-----------Technical Achievements (hackathons, publications or patents-----------------
+    \section{Technical Achievements}
+      \resumeSubHeadingListStart
+
+        \resumeSubItem{2017 - Winning team}
+            {ETH Waterloo Hackathon, Waterloo, Canada.}
+
+        \resumeSubItem{2017 - Published}
+            {HappyChain API SDK via node package module.}
+
+        \resumeSubItem{2014 - Participant}
+            {Salesforce Hackathon, San Francisco, CA.}
+
+        \resumeSubItem{2014 - Participant}
+            {ACM International Collegiate Programming Contest, San Francisco, CA.}
+
+      \resumeSubHeadingListEnd
+
+
+
+%----
+    %-----------Leadership Activities-----------------
+    \section{Leadership Activities}
+      \resumeSubHeadingListStart
+
+      % ussocom - sme
+       \resumeSubItem{2020 - Subject Matter Expert}
+          {Innovation Foundry Artificial Intelligence, United States Special Operations Command, Remote.}
+
+        % hack in the north - judge
+         \resumeSubItem{2018 - Hackathon Judge}
+            {Hack in the North, IIIT-Allahabad, India.}
+
+        % wcef - judge
+        \resumeSubItem{2018 - Hackathon Judge}
+            {World Crypto Economic Forum (WCEF), San Francisco, CA}
+
+        % incubator mentor - d.c.
+        \resumeSubItem{2018 - Hackathon Mentor}
+            {Decentralized Impact Incubator 6-week Hackathon, Washington, D.C. \& Remote.}
+
+        % hackathon mentor - dubai
+        \resumeSubItem{2017 - Hackathon Mentor}
+            {ConsenSys Academy Hackathon, Dubai, United Arab Emirates.}
+
+        % usf ra
+        \resumeSubItem{2014 - President}
+            {Resident Hall Council, University of San Francisco.}
+
+        % volunteer
+        \resumeSubItem{2013 - Volunteer}
+            {Habitat for Humanity.}
+
+        % occ as
+        \resumeSubItem{2010 - Director of Publicity}
+            {Associated Students, Orange Coast College.}
+
+      \resumeSubHeadingListEnd
+
+
+
+
+%----
+    %----------- EDUCATION -----------------
+    \section{Education}
+      \resumeSubHeadingListStart
+        \resumeSubheading
+          {University of San Francisco}{San Francisco, CA}
+          {Bachelor of Science in Computer Science}{Jan. 2014 -- May. 2017}
+      \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}
