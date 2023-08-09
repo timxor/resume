@@ -1,0 +1,143 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Timothy Siwula}}\\
+	Greater Chicagoland $\cdot$ siwulactim@gmail.com $\cdot$ (224) 368-0749 $\cdot$ github.com/timxor\\
+\end{center}
+
+\header{Technical Skills}
+\begin{tabular}{ l l }
+	Languages:    & Java, Python, C, R, Bash, Rust, Go, SQL                              \\
+	Technologies: & Linux, AWS, Docker, Hadoop, Terraform, Node.js, TensofFlow, Terminal \\
+\end{tabular}
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Expierence}
+\vspace{1mm}
+
+\textbf{Acceptance AI} \hfill (Remote) Chicago, IL\\
+\textit{Software Engineer} \hfill Jan 2020 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Integrated backend Node.js API with Zoom\textquotesingle{}s OAuth API, JWTs \& LIT Protocol JS SDK
+	\item Enabled support for Zoom webinar API via OAuth credentials
+\end{itemize}
+\textbf{Ensighten} \hfill (Remote) Chicago, IL\\
+\textit{Software Engineer} \hfill Jun 2019 - Dec 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Added a new data feed to existing ETL pipeline using Redshift and Hadoop
+	\item Ported legacy angular test framework to cypress.js
+\end{itemize}
+\textbf{ConsenSys} \hfill (Remote) San Francisco, CA\\
+\textit{Software Engineer} \hfill Jul 2017 - Dec 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Contributed to the implementation of the enterprise Java Ethereum client
+	\item Contributed to Ethereum peer-to-peer gossip protocol open source implementation
+\end{itemize}
+\textbf{HappyChain} \hfill San Francisco, CA\\
+\textit{Co-founder} \hfill Jan 2017 - Aug 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Deployed Ethereum blockchain full node client on AWS that communicated with our Node.js API Server
+	\item Published NPM module that called HappyChain that exposes our API to other developers.
+\end{itemize}
+\textbf{Lawrence Berkeley National Laboratory} \hfill Berkeley, CA\\
+\textit{Science Web Programmer} \hfill May 2014 - Oct 2014\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item System Migration: Ported the Energy Sciences network testbed to a new architecture. This consisted of a linux OS and a network file system.
+\end{itemize}
+
+%==== Education ====%
+\header{Education}
+\textbf{University of San Francisco}\hfill San Francisco, CA\\
+Bachelor of Science Computer Science \hfill Jan 2014 - May 2017\\
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Custom DNS Resolver}} {\sl Node.js, IPFS} \hfill https://github.com/timxor/happy-ens\\
+Open source domain name server (DNS) library\\
+\vspace*{2mm}
+{\textbf{Kaggle Prediction}} {\sl R, PostgreSQL} \hfill https://github.com/timxor/click\_prediction\\
+Used random forests, bagging and SVM to create a model that predicts the likelihood of a user clicking through\\
+\vspace*{2mm}
+
+
+
+\ 
+\end{document}
