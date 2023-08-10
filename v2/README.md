@@ -5,15 +5,11 @@ august_2023
 
 
 ```
+cd v2
 
-mkdir august_2023/v1
+pdflatex ./v2_cv_tim_siwula_august_2023.tex .
 
-cd august_2023/v1
-
-pdflatex ./../cv_tim_siwula_august_2023.tex .
-
-open cv_tim_siwula_august_2023.pdf
-
+open v2_cv_tim_siwula_august_2023.pdf
 
 ```
 

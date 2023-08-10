@@ -5,9 +5,21 @@
 # ignore latex files
 ./**/*.aux
 ./**/*.log
+
+
+resume/v2/*.aux
+resume/v2/*.log
+resume/v2/*.out
+
+
 *.aux
 *.log
 *.out
+
+.aux
+.log
+.out
+
 out/
 
 # ignore editor files
